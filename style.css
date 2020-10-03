@@ -1,0 +1,70 @@
+header{
+    width: 100%;
+    height: 150px;
+    background-image: url(img/header1.jpg) ;
+    
+}
+nav{
+    background-color: lightpink;
+    width: 100%;
+    height: 30%;
+    
+    
+}
+main{
+    width: 100%;
+    height: 600px;
+    background-color: lightyellow;
+}
+#content{
+    background-color: lightgreen;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+
+#content .article1{
+    background: lightgrey;
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px solid #000;
+}
+#content .article2{
+    background: darkgray;
+    width: 100%;
+    height: 10%;
+}
+aside{
+    background-color: #000;
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: lightsalmon;
+    
+}
+.navbar{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.navbar ul li{
+    display: inline-block;
+
+}
+.link{
+    text-decoration: none;
+    border-right: 1px solid #000;
+    padding-right:5px ;
+}
+.judul{
+    width: 100%;
+    height: 70%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
